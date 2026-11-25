@@ -2,7 +2,7 @@
 Updated: 2026-11-25
 - App v2.0.0 (Python/PyQt6, PyInstaller). Publisher shown in app: "Smartupworld".
 - winget: PR microsoft/winget-pkgs #486147 waiting for a moderator. Do NOT push changes to it.
-- Microsoft Store: package built (commit eb38300, identity Smartupworld.Sdrop). Owner has finished listing, properties, age rating; remaining: upload package, screenshot, Submit for certification. Playbook: docs/STORE_SUBMISSION_PLAYBOOK.md
+- Microsoft Store: SUBMITTED for certification 2026-11-25 (Submission 1, v2.0.0, Store ID 9P87Z4KCJGXQ). Waiting for Microsoft (1-3 business days). Then: add Store badge + link https://apps.microsoft.com/detail/9p87z4kcjgxq to smartupworld.com/sdrop/. Playbook: docs/STORE_SUBMISSION_PLAYBOOK.md
 ## Next
 1. Owner reserves name "SDrop" in Partner Center, then gives Identity Name + Publisher CN + Publisher display name.
 2. Run workflow "Build Windows packages" with those values; test the MSIX; upload SDrop-Store.msix.
