@@ -2,7 +2,7 @@
 Updated: 2026-11-25
 - App v2.0.0 (Python/PyQt6, PyInstaller). Publisher shown in app: "Smartupworld".
 - winget: PR microsoft/winget-pkgs #486147 waiting for a moderator. Do NOT push changes to it.
-- Microsoft Store: IN PROGRESS. Packaging/, workflow and docs/STORE_LISTING.md added; first Actions run (45634099981) built installer, portable ZIP, MSIX and logos OK. Release "latest" holds them.
+- Microsoft Store: package built (commit eb38300, identity Smartupworld.Sdrop). Owner has finished listing, properties, age rating; remaining: upload package, screenshot, Submit for certification. Playbook: docs/STORE_SUBMISSION_PLAYBOOK.md
 ## Next
 1. Owner reserves name "SDrop" in Partner Center, then gives Identity Name + Publisher CN + Publisher display name.
 2. Run workflow "Build Windows packages" with those values; test the MSIX; upload SDrop-Store.msix.
