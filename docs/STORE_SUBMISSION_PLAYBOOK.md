@@ -10,7 +10,7 @@ Saved 2026-11-25 (from the owner's Gemini-guided submissions). Reuse for SFences
 | App | Identity Name | Store ID | Stack | Status |
 |---|---|---|---|---|
 | SyncMind | Smartupworld.SyncMind | 9N071G9JK9R2 | .NET 10 WPF + WebView2 | Live in Store |
-| SClip | Smartupworld.SClip-ClipboardManager | (not recorded) | Python + PyQt6 + SQLite | Submitted v1.0.0.0 |
+| SClip | Smartupworld.SClip-ClipboardManager | 9NQVQF9L978K | Python + PyQt6 + SQLite | Live: https://apps.microsoft.com/detail/9nqvqf9l978k |
 | SDrop | Smartupworld.Sdrop (lowercase d) | 9P87Z4KCJGXQ | Python + PyQt6 | Listing/properties/age rating done 2026-11-25; package built from commit eb38300 |
 | SFences Pro, STorrent | not reserved yet | | | Remaining |
 SDrop PFN: Smartupworld.Sdrop_d7c0160x3szs0. Pages: /sdrop/ and /sdrop-privacy-policy/ on smartupworld.com (privacy page uses theme template page-sdrop-privacy-policy.php).
