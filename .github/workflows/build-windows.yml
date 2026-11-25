@@ -7,7 +7,7 @@ on:
     inputs:
       identity_name:
         description: "Store Identity Name from Partner Center"
-        default: "Smartupworld.SDrop"
+        default: "Smartupworld.Sdrop"
       publisher:
         description: "Store Publisher (CN=...) from Partner Center"
         default: "CN=A10ED12C-0499-4FBE-8193-87C74DAFC0BB"

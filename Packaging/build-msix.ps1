@@ -4,7 +4,7 @@
    default -> signed with a throw-away certificate, for the certification-kit test
 #>
 param(
-  [string]$IdentityName = "Smartupworld.SDrop",
+  [string]$IdentityName = "Smartupworld.Sdrop",
   [string]$Publisher = "CN=A10ED12C-0499-4FBE-8193-87C74DAFC0BB",
   [string]$PublisherDisplayName = "Smartupworld",
   [string]$Version = "2.0.0.0",

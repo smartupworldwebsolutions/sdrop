@@ -10,3 +10,8 @@ Updated: 2026-11-25
 ## Known limits
 - MSIX: the "start with Windows" option writes the registry Run key, which MSIX virtualizes -> it will not autostart in the Store build. Fix later with a StartupTask.
 - MSIX not yet tested by installing on a PC.
+
+## Store identity (from Partner Center, 2026-11-25)
+- Identity Name: Smartupworld.Sdrop (note lowercase d) · Publisher: CN=A10ED12C-0499-4FBE-8193-87C74DAFC0BB · Display: Smartupworld
+- PFN: Smartupworld.Sdrop_d7c0160x3szs0 · Store ID: 9P87Z4KCJGXQ
+- Defaults in workflow and build-msix.ps1 now use these. https://smartupworld.com/sdrop/ is live; privacy page still needed.
