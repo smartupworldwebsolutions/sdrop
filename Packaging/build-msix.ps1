@@ -27,7 +27,7 @@ $makeappx = Find-SdkTool "makeappx.exe"
 
 Write-Host "1/4 Bundling the app with PyInstaller..."
 python -m pip install --upgrade PyQt6 pyinstaller pillow
-python -m PyInstaller --clean --noconfirm --onedir --windowed --name SDrop --icon sdrop.ico --hidden-import=PyQt6.sip --distpath build_py --workpath build_py\work --specpath build_py sdrop.py
+python -m PyInstaller --clean --noconfirm --onedir --windowed --name SDrop --icon "$root\sdrop.ico" --hidden-import=PyQt6.sip --distpath build_py --workpath build_py\work --specpath build_py "$root\sdrop.py"
 if ($LASTEXITCODE -ne 0) { throw "PyInstaller failed" }
 Copy-Item build_py\SDrop\* $layout -Recurse -Force
 
