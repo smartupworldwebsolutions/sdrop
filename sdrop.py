@@ -69,7 +69,7 @@ from PyQt6.QtWidgets import (
 
 APP_NAME = "SDrop"
 APP_VERSION = "2.0.0"
-APP_PUBLISHER = "SmartUpWorld"
+APP_PUBLISHER = "Smartupworld"
 APP_URL = "https://smartupworld.com"
 APP_USER_MODEL_ID = "SmartUpWorld.SDrop.2"
 
